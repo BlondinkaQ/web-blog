@@ -1,0 +1,138 @@
+@font-face {
+			font-family: "BoomBoomRegular";
+			src: url("../fonts/BoomBoomRegular/BoomBoomRegular.eot");
+			src: url("../fonts/BoomBoomRegular/BoomBoomRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BoomBoomRegular/BoomBoomRegular.woff") format("woff"),
+			url("../fonts/BoomBoomRegular/BoomBoomRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+
+
+body{
+
+}
+
+#ipod{	
+padding-top: 7px;
+
+}
+
+
+
+
+div.footer-copyright{
+	
+
+	 }
+
+	  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  div.copy{
+  	height: 10px;
+  	padding-top: 10px;
+  
+ 	
+  }
+
+  img.socnet{
+  	
+  	margin-right: 3px;
+  }
+
+.slider .indicators{
+	
+    bottom: 60px;
+    z-index: 2;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: red;
+}
+
+.input-field label {
+    color: #a94747;
+    }
+
+
+    input:not([type]), 
+    input[type=text]:not(.browser-default), 
+    input[type=password]:not(.browser-default), 
+    input[type=email]:not(.browser-default), 
+    input[type=url]:not(.browser-default), 
+    input[type=time]:not(.browser-default), 
+    input[type=date]:not(.browser-default), 
+    input[type=datetime]:not(.browser-default), 
+    input[type=datetime-local]:not(.browser-default),
+     input[type=tel]:not(.browser-default), 
+     input[type=number]:not(.browser-default),
+      input[type=search]:not(.browser-default),
+    textarea.materialize-textarea{
+
+border-bottom: 1px solid #ffffff;
+ color: white;
+    }
+
+    .select-wrapper span.caret {
+    	color: white;
+    }
+
+    input:not([type]):focus:not([readonly]), 
+    input[type=text]:not(.browser-default):focus:not([readonly]),
+     input[type=password]:not(.browser-default):focus:not([readonly]), 
+     input[type=email]:not(.browser-default):focus:not([readonly]), 
+     input[type=url]:not(.browser-default):focus:not([readonly]), 
+     input[type=time]:not(.browser-default):focus:not([readonly]), 
+     input[type=date]:not(.browser-default):focus:not([readonly]), 
+     input[type=datetime]:not(.browser-default):focus:not([readonly]),
+      input[type=datetime-local]:not(.browser-default):focus:not([readonly]), 
+      input[type=tel]:not(.browser-default):focus:not([readonly]),
+      input[type=number]:not(.browser-default):focus:not([readonly]),
+       input[type=search]:not(.browser-default):focus:not([readonly]),
+        textarea.materialize-textarea:focus:not([readonly]){
+    	border-bottom: 1px solid #005aff;
+    }
+
+ h1.mainfont {
+  font-family: BoomBoomRegular;
+
+}
+
+.sphere{
+margin-top: 10px;
+
+}
+
+
+.servicesico{
+
+margin-top: 15px;
+}
+
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right:100px;
+display:none;
+text-indent:-9999px;
+background: url('public/img/icon_top.png') no-repeat;
+background: yellow;
+}
+
+.logoname{
+  
+ vertical-align: top;
+ float: right;
+}

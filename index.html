@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      
+      
+
+      <!--Import Google Icon Font-->
+      <link rel="shortcut icon" href="logo\favicon.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="css\animate.css">
+      
+      
+      <title>BlondinkaQ Blog</title>
+    </head>
+
+<body>
+     
+
+<nav class="red">
+    <div class="container">
+    <div class="nav-wrapper">  
+     <a  href="https://www.instagram.com/blondinkaq/" target="_blank" class="brand-logo"><span><img id="ipod"src="img/ipod.png">BlondinkaQ</span></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="ownprojects.html">Наши проекты</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      
+      <ul class="side-nav" id="mobile-demo">
+        <li><a class="red" href="index.html">Главная</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a class="red" href="ownprojects.html">Наши проекты</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+ <main>
+   <div class="slider full-width">
+    <ul class="slides">
+      <li>
+        <img src="img/1.jpg"> 
+        <div class="caption center-align">
+          <h1 class=" red-text">BlondinkaQ</h1>
+          <div class="row">
+          <strong><h3 class="col s10 offset-s1  xl4 offset-xl4  blue-text text-darken-3 red personal"  >Personal Blog</h3></strong>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="img/2.jpg"> 
+        <div class="caption right-align">
+          <h1>Топовые услуги</h1>
+          <h3 class=" red-text ">Только у нас</h3>
+        </div>
+      </li>
+      <li>
+        <img src="img/3.jpg"> 
+        <div class="caption left-align">
+          <h1>Трезвый склад ума</h1>
+          <h3 class=" red-text ">Любитель бизнес литературы</h3>
+        </div>
+      </li>
+      <li>
+        <img src="img/4.jpg"> 
+        <div class="caption center-align">
+          <h1>Дело на максимум!</h1>
+          <h3 class=" red-text ">Розвиваюсь в сфере бизнеса и IT!</h3>
+        </div>
+      </li>  
+    </ul>
+  </div>
+  </div>
+
+
+<div class="container">
+ <div class="row">
+    <div class="col xl12 s12"><h1  class="  red-text caption center-align mainfont" >Основные цели</h1></div>
+      <div class="col xl4 s12 center-align wow fadeInLeftBig " data-wow-duration="1s"><img class="point" width="250" height="250" src="img/money.png"> <p>Зарботать миллион <b>баксов</b></p></div>
+      <div class="col xl4 s12 center-align wow zoomIn " data-wow-duration="2s""><img class="point" width="250" height="250" src="img/eng.png"> <p>Досконально выучить <b>английский</b></p></div>
+      <div class="col xl4 s12 center-align wow fadeInRightBig " data-wow-duration="2s"><img class="point" width="250" height="250"  src="img/dj.png"><p> Поехать на <b>Tommorowland</b></p></div>
+
+
+
+    </div>
+  </div>
+</main>
+
+
+
+
+<footer class="red">
+           <div class="footer-copyright  ">
+            <div class="container ">
+               <div class="row copy ">
+                <div class="  col  s6" >
+            Copyright 2018 - BlondinkaQ Personal Blog
+          </div>
+          <div class="col  s6  " >
+            <a class=" right" href="https://twitter.com/blondinkaq" target="_blank"><img class="socnet" width="25" height="25" src="img/twitter.png"></a>
+             <a class="right" href="https://t.me/topmusicword" target="_blank"><img class="socnet" width="25" height="25" src="img/telegram.png"></a>
+            <a class="right" href="https://www.instagram.com/blondinkaq/" target="_blank"><img class="socnet" width="25" height="25" src="img/instagram.png"></a>
+            <a class="right" href="https://www.youtube.com/channel/UChzUWTt-7xMkFJ5T6F4uZsg" target="_blank"><img class="socnet" width="25" height="25" src="img/youtube.png"></a>
+          </div>
+         </div>
+             </div>
+          </div>
+ </footer>
+
+
+<script src="js\wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+    
+
+      <script > 
+          $(".button-collapse").sideNav();
+
+  $(document).ready(function(){
+    $('.slider').slider({ 
+      height:575,
+     interval:3000,
+     //indicators:false,
+    });
+  });
+
+     </script>
+
+    </body>
+    </html>
